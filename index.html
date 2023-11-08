@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- ========  Title of the document  ========-->
+     <title>javascript project</title>
+
+     <!-- ========= linking the style sheet   ========-->
+     <link rel="stylesheet" href="style.css">
+
+     <!-- ========= linking the remixIcons cdn   ========-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+          integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <!-- ======= Linking the JavaScript  ========-->
+     <script type="module" src="main.js"></script>
+</head>
+
+<body>
+
+     <!-- ========== Header of the website ========== -->
+     <header class="header">
+          <nav class="nav_container container">
+               <div class="logo"><a href="index.html"><span>S</span>corpion</a></div>
+
+               <ul class="nav_list">
+                    <li><a href="#home" class="nav-links">Home</a></li>
+                    <li><a href="#about" class="nav-links">about </a></li>
+                    <li><a href="#skills" class="nav-links">skills </a></li>
+                    <li><a href="#service" class="nav-links">service</a></li>
+                    <li><a href="#project" class="nav-links">Project</a></li>
+                    <li><a href="#contact-me" class="nav-links">Contact</a></li>
+
+                    <div class="close-icon" id="close">
+                         <i class="ri-close-line"></i>
+                    </div>
+               </ul>
+
+               <div class="hamburger-icon" id="hamburger">
+                    <i class="ri-menu-fold-line hamburger"></i>
+               </div>
+          </nav>
+     </header>
+
+     <!-- ============= Main Content ============== -->
+     <main class="main" id="home">
+          <section class="container main-section">
+
+               <div class="hero-content">
+                    <div class="hero-data">
+                         <h3>Hello,<span>I'm</span></h3>
+                         <h2><span>S</span>corpion</h2>
+                         <h3>Frontend-developer</h3>
+                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius est vitae sunt, autem fugit
+                              perferendis maxime expedita.</p>
+
+                         <h3>Social-Media</h3>
+                         <div class="social-media-icons">
+                              <div class="icon">
+                                   <a href="">
+                                        <i class="ri-instagram-line"></i>
+                                   </a>
+                              </div>
+                              <div class="icon">
+                                   <a href="">
+                                        <i class="ri-facebook-circle-fill"></i>
+                                   </a>
+                              </div>
+                              <div class="icon">
+                                   <a href="">
+                                        <i class="ri-github-fill"></i>
+                                   </a>
+                              </div>
+
+                         </div>
+                    </div>
+               </div>
+
+
+               <!-- ========= Hero profile ======== -->
+               <div class="hero-img-container">
+                    <div class="profile-container">
+                         <img src="./img/profile-card.jpeg" alt="profile">
+                    </div>
+               </div>
+          </section>
+     </main>
+
+
+     <!-- ================= About Content ================== -->
+
+     <main class="about-container" id="about">
+          <section class="container">
+               <div class="about-content">
+                    <div class="about-data">
+                         <h3>I'm from</h3>
+                         <h2><span>M</span>ortal <span>K</span>ombat</h2>
+                         <p>
+                              I am Scorpion, a fierce ninja warrior in the Mortal Kombat universe. My real name is Hanzo
+                              Hasashi, and I was once a devoted family man, living a peaceful life.
+                         </p>
+                         <p>
+                              However, my world was shattered when I was killed by the Lin Kuei ninja, Sub-Zero. I was
+                              later resurrected as a hellspawn specter by the sorcerer Quan Chi, consumed by an
+                              unquenchable thirst for vengeance.
+
+                         </p>
+
+                         <div class="contact-me-btn-conatiner">
+                              <a href="#contact-me" class="contact-btn btn">Contact Me</a>
+                         </div>
+                    </div>
+                    <!-- ========= about profile ======== -->
+                    <div class="about-img-container">
+                         <div class="about-profile-container">
+                              <img src="./img/about.jpeg" alt="profile">
+                         </div>
+                    </div>
+               </div>
+          </section>
+     </main>
+
+
+     <!-- ================= skills Content ================== -->
+     <main class="skills-container" id="skills">
+          <section class="container">
+               <div class="skills-content">
+                    <h3>Favourite <span class="special-span">skills</span></h3>
+                    <h2>MY Skills</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <div class="seeProjects-btn-conatiner">
+                         <a href="#project" class=" btn">Project</a>
+                    </div>
+                    <div class="grid-project-list">
+                         <ol class="list-of-project">
+                              <li class="list-items">HTML</li>
+                              <li class="list-items">CSS</li>
+                              <li class="list-items">javascript</li>
+
+                         </ol>
+                         <ol class="list-of-project" start="5">
+                              <li class="list-items">React.js</li>
+                              <li class="list-items">Node.js</li>
+                         </ol>
+
+
+                    </div>
+               </div>
+          </section>
+     </main>
+
+
+
+     <!-- ================= Services Content ================== -->
+     <main class="services-container" id="service">
+          <section class="container">
+               <div class="service-content">
+                    <h3>My <span class="special-span">Services</span></h3>
+                    <h3>Major Work That I Do</h3>
+
+                    <div class="service-article-container">
+                         <article class="service-card">
+                              <i class="ri-fire-fill service-icon"></i>
+                              <h2 class="service-title">Web Developer</h2>
+                              <p class="service-disc">development of High-end and quality website as per your design</p>
+                         </article>
+                         <article class="service-card">
+                              <i class="ri-quill-pen-line service-icon"></i>
+                              <h2 class="service-title">UI/UX </h2>
+                              <p class="service-disc">Solid Knowledge of UI/UX and web interface and Mobile
+                                   applications,design made in figma
+                              </p>
+                         </article>
+                         <article class="service-card">
+                              <i class="ri-pulse-fill  service-icon"></i>
+                              <h2 class="service-title">Graphic Design</h2>
+                              <p class="service-disc">Development of High-end and quality website as per your design</p>
+                         </article>
+                    </div>
+               </div>
+
+          </section>
+     </main>
+
+
+     <!-- ================= Project Content ================== -->
+
+     <main class="services-container project-background">
+          <section class="container" id="project">
+               <div class="project-content">
+                    <h3>My <span class="special-span">Jobs</span></h3>
+                    <h3>Recent Projects</h3>
+
+                    <div class="article-container">
+                         <article class="project-card">
+                              <img src="./img/project-1.jpeg" alt="project-1">
+
+                              <div class="project-article-container">
+                                   <div class="project-article">
+                                        <h3>Web</h3>
+                                        <h2 class="project-title">Modern Website</h2>
+                                        <a href="#" class="project-disc">
+                                             View Demo
+                                             <i class="ri-share-box-line"></i>
+                                        </a>
+                                   </div>
+                              </div>
+                         </article>
+                         <article class="project-card">
+                              <img src="./img/project-2.jpeg" alt="project-1">
+                              <div class="project-article-container">
+                                   <div class="project-article">
+                                        <h3>Web</h3>
+                                        <h2 class="project-title">Modern Website</h2>
+                                        <a href="#" class="project-disc">
+                                             View Demo
+                                             <i class="ri-share-box-line"></i>
+                                        </a>
+                                   </div>
+                              </div>
+                         </article>
+
+                         <article class="project-card">
+                              <img src="./img/project-4.jpeg" alt="project-1">
+                              <div class="project-article-container">
+                                   <div class="project-article">
+                                        <h3>Web</h3>
+                                        <h2 class="project-title">Modern Website</h2>
+                                        <a href="#" class="project-disc">
+                                             View Demo
+                                             <i class="ri-share-box-line"></i>
+                                        </a>
+                                   </div>
+                              </div>
+                         </article>
+                    </div>
+               </div>
+
+          </section>
+     </main>
+     <!-- ================= Contact Form ================== -->
+     <main class="services-container">
+          <section class="container form-section" id="contact-me">
+               <div class="form-content">
+                    <div class="form-title-disc">
+                         <h4>Get in <span class="special-span">Touch</span></h4>
+                         <h2 class="project-title">Contact Me</h2>
+                    </div>
+
+
+
+
+                    <form action="" class="form-data">
+
+                         <div class="input-container">
+                              <input type="text" autocomplete="off" spellcheck="false" class="input-field"
+                                   name="user_name" id="username" placeholder="Enter your name">
+
+                              <input type="email" class="input-field" autocomplete="off" spellcheck="false" name="Email"
+                                   id="email" placeholder="Enter your Email">
+                         </div>
+
+
+                         <textarea name="textarea" id="textarea" placeholder="Please write something"></textarea>
+
+                         <p class="message-sent"></p>
+
+                         <button type="submit" class="send-message btn">Send Message</button>
+                    </form>
+               </div>
+          </section>
+     </main>
+</body>
+
+</html>
